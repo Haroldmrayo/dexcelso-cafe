@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es-CO" translate="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google" content="notranslate">
+  <title>D'Excelso – Café premium 100% excelso colombiano</title>
+  <meta name="description" content="Café de especialidad del Valle del Cauca, cultivado y tostado artesanalmente a 1.600 msnm en la Finca Villa Hanny, La Irlanda (Jamundí). Pídelo por WhatsApp.">
+  <meta property="og:title" content="D'Excelso – Café premium 100% excelso colombiano">
+  <meta property="og:description" content="Café 100% arábica, tostado artesanalmente, directo de nuestra tierra a tu hogar.">
+  <meta property="og:image" content="img/bolsas.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#402218">
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="img/portada.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== Barra superior ===== -->
+  <header class="nav">
+    <div class="contenedor nav__fila">
+      <a class="logo" href="#inicio"><img src="img/logo.png" alt="D'Excelso Café Premium" width="300" height="300"></a>
+      <ul class="nav__enlaces" id="navEnlaces">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#historia">Nuestra historia</a></li>
+        <li><a href="#tienda">Tienda</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a class="cotiza js-wa" href="#contacto">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h4l2 5-2.500 1.500a11 11 0 006 6L16 13l5 2v4a2 2 0 01-2 2A16 16 0 013 5a2 2 0 012-2z"/></svg>
+        <div><b>Cotiza con nosotros</b><span>3177609333</span></div>
+      </a>
+      <button class="nav__boton" id="navBoton" aria-label="Abrir menú" aria-expanded="false" aria-controls="navEnlaces">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== Portada ===== -->
+    <section class="hero" id="inicio">
+      <div class="contenedor hero__contenido">
+        <span class="etiqueta">Bienvenidos</span>
+        <h1>D'Excelso<br>Café Premium</h1>
+        <p class="hero__texto">Descubre el sabor auténtico de Colombia en cada taza.</p>
+        <p class="hero__texto">Café 100% arábica, tostado artesanalmente, directo de nuestra tierra a tu hogar.</p>
+        <div class="hero__acciones">
+          <a class="btn" href="#tienda">Conocer nuestros cafés</a>
+          <a class="btn btn--linea" href="#historia">Nuestra historia</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Nuestra historia ===== -->
+    <section class="seccion" id="historia">
+      <div class="contenedor">
+        <div class="dos dos--arriba">
+          <div class="foto foto--alta">
+            <img src="img/cultivo.jpg" alt="Cafetal en ladera en la Finca Villa Hanny, con grano madurando" width="1200" height="1600">
+          </div>
+          <div>
+            <span class="etiqueta">Un poco de nosotros</span>
+            <h2>La historia de Dexcelso</h2>
+            <p class="bajada">El sabor de un buen café no comienza en la taza, sino en la tierra donde nace.</p>
+            <p>
+              Por eso, entender el origen y las variedades es esencial para valorar un café realmente premium.
+              En D'Excelso, nuestro grano tiene raíces profundas: nace en la Finca Villa Hanny, ubicada en San Vicente,
+              zona rural de Jamundí (Valle del Cauca), a más de 1.600 metros sobre el nivel del mar. Ese entorno
+              —montañoso, fresco y privilegiado— es el que define el carácter y la calidad de nuestro café.
+            </p>
+
+            <h3 class="subtitulo">El origen: una tierra que transforma el sabor</h3>
+            <p>En las zonas altas del Valle del Cauca, la naturaleza trabaja a nuestro favor:</p>
+            <ul class="compromiso">
+              <li>Las temperaturas más frías ralentizan la maduración.</li>
+              <li>La planta desarrolla más azúcares naturales.</li>
+              <li>Los granos crecen más densos y compactos.</li>
+            </ul>
+            <p>
+              ¿El resultado? Un café con aroma intenso, acidez brillante y un perfil sensorial más complejo, ideal
+              para quienes disfrutan una taza equilibrada y llena de matices.
+            </p>
+            <p><strong>La altura de 1.600 msnm no es un dato técnico: es uno de los secretos que convierten a D'Excelso en un café de alta calidad.</strong></p>
+          </div>
+        </div>
+
+        <div class="dos dos--arriba" style="margin-top:clamp(40px,6vw,72px)">
+          <div>
+            <h3 class="subtitulo">Variedades que potencian la experiencia</h3>
+            <p>
+              En la finca se cultivan variedades arábicas cuidadosamente seleccionadas por su adaptabilidad al clima
+              de montaña y su excelente perfil sensorial. Estas variedades destacan por:
+            </p>
+            <ul class="compromiso">
+              <li>Notas dulces y aromáticas</li>
+              <li>Cuerpo medio y textura agradable</li>
+              <li>Sabores limpios y persistentes</li>
+              <li>Excelente desempeño en métodos filtrados y espresso</li>
+            </ul>
+            <p>Cada variedad aporta un toque especial que, al mezclarse con la altura, el suelo y la tostión artesanal, da vida a una taza única.</p>
+
+            <h3 class="subtitulo">Un origen que garantiza calidad</h3>
+            <p>
+              Café de altura, cultivo cuidado, selección manual y tostión artesanal… Esa es la suma que hace que cada
+              taza de D'Excelso sea un producto honesto, premium y lleno de esencia colombiana.
+            </p>
+            <p><strong>Cuando eliges D'Excelso, no solo compras café: compras origen, tradición y un sabor auténticamente cultivado en las montañas del Valle del Cauca.</strong></p>
+            <a class="btn" href="blog.html#origen">Saber más</a>
+          </div>
+          <div class="foto">
+            <img src="img/paisaje.jpg" alt="Montañas de La Irlanda, San Vicente, Valle del Cauca" loading="lazy" width="1400" height="1050">
+          </div>
+        </div>
+
+        <aside class="familia">
+          <img src="img/familia.jpg" alt="Padre e hijo, los cafeteros detrás de D'Excelso Café" loading="lazy" width="1000" height="1270">
+          <div>
+            <h3>Un café de padre e hijo</h3>
+            <p>
+              Mi padre sembró aquí sus primeras plantas de café hace más de diez años, y de él aprendí el valor del
+              campo, la dedicación y el respeto por la tierra.
+            </p>
+            <p>
+              <strong>Un proyecto que evoluciona.</strong> Con los años, ese legado familiar se transformó en D'Excelso:
+              un café premium que honra su origen, conserva la esencia de la tradición y lleva a cada taza sabor,
+              carácter y autenticidad.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== Café Premium 100% Excelso ===== -->
+    <section class="seccion seccion--cafe">
+      <div class="contenedor premium">
+        <div class="premium__foto">
+          <img src="img/bolsas.jpg" alt="Bolsas de D'Excelso Café de 500 gramos" loading="lazy" width="1200" height="1200">
+        </div>
+        <div>
+          <span class="etiqueta">D'Excelso Café</span>
+          <h2>Café Premium 100% Excelso Colombiano</h2>
+          <p class="bajada">
+            De las montañas del Valle del Cauca, vereda La Irlanda. Beneficio, selección y tostión
+            hechos en la misma finca, por la misma familia que lo siembra.
+          </p>
+          <div class="cifras">
+            <div class="cifra"><strong>1.600 msnm</strong><span>Altura del cultivo</span></div>
+            <div class="cifra"><strong>5 hectáreas</strong><span>Sembradas en café</span></div>
+            <div class="cifra"><strong>Arábica</strong><span>Variedad</span></div>
+            <div class="cifra"><strong>+10 años</strong><span>Sembrando en familia</span></div>
+          </div>
+          <p style="margin:26px 0 0">
+            <strong>Arábica: suave, aromática y equilibrada.</strong> Presenta una acidez fina y agradable,
+            con notas florales, frutales y achocolatadas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Tienda ===== -->
+    <section class="seccion centro" id="tienda">
+      <div class="contenedor">
+        <span class="etiqueta">Granos de café especiales</span>
+        <h2>Nuestros cafés especiales</h2>
+
+        <div class="tienda">
+          <article class="cafe-card">
+            <img src="img/bolsas.jpg" alt="Bolsas de D'Excelso Café" loading="lazy">
+            <div class="cafe-card__cuerpo">
+              <h3>Dexcelso en grano</h3>
+              <p>Tostión media. Para moler en casa justo antes de preparar y aprovechar todo el aroma.</p>
+              <p class="precio"><span class="js-precio">$45.000</span> <small>/ libra 500 g</small></p>
+              <a class="btn js-wa" href="#contacto" data-mensaje="Hola, quiero pedir D'Excelso Café en grano. ¿Qué disponibilidad tienen?">Pedir</a>
+            </div>
+          </article>
+          <article class="cafe-card">
+            <img src="img/molino.jpg" alt="Molino de café de la finca" loading="lazy">
+            <div class="cafe-card__cuerpo">
+              <h3>Dexcelso molido</h3>
+              <p>Tostión media. Molido en la finca, listo para greca, cafetera de filtro o prensa.</p>
+              <p class="precio"><span class="js-precio">$45.000</span> <small>/ libra 500 g</small></p>
+              <a class="btn js-wa" href="#contacto" data-mensaje="Hola, quiero pedir D'Excelso Café molido. ¿Qué disponibilidad tienen?">Pedir</a>
+            </div>
+          </article>
+          <article class="cafe-card">
+            <img src="img/cerezas.jpg" alt="Cerezas de café maduras en la rama" loading="lazy">
+            <div class="cafe-card__cuerpo">
+              <h3>Para tu negocio</h3>
+              <p>¿Tienes una tienda, un café o un restaurante? Cotiza varias libras de café de origen.</p>
+              <p class="precio">Cotiza <small>según cantidad</small></p>
+              <a class="btn js-wa" href="#contacto" data-mensaje="Hola, tengo un negocio y quiero cotizar D'Excelso Café por varias libras.">Cotizar</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="aviso"><b>Producción limitada.</b> Tostamos en lotes pequeños cada mes y trabajamos sobre pedido.
+          Escríbenos y te contamos qué hay disponible y cuándo sale la próxima tostión.</p>
+      </div>
+    </section>
+
+    <!-- ===== Franja ===== -->
+    <section class="franja franja--cafetal">
+      <div class="contenedor">
+        <h2>Naturalmente auténtico, naturalmente D'Excelso</h2>
+      </div>
+    </section>
+
+    <!-- ===== Del cafetal a la taza ===== -->
+    <section class="seccion seccion--arena centro" id="proceso">
+      <div class="contenedor">
+        <span class="etiqueta">Proceso artesanal</span>
+        <h2>Del cafetal a la taza</h2>
+        <p class="bajada">Todo pasa en la finca: el mismo café que sembramos es el que te llega.</p>
+
+        <div class="pasos">
+          <article class="paso">
+            <img src="img/almacigo.jpg" alt="Almácigo de plántulas de café bajo sombra" loading="lazy">
+            <div class="paso__cuerpo"><h3>Almácigo</h3><p>Cada mata empieza en nuestro propio almácigo, bajo la sombra del bosque.</p></div>
+          </article>
+          <article class="paso">
+            <img src="img/siembra.jpg" alt="Colino de café recién sembrado" loading="lazy">
+            <div class="paso__cuerpo"><h3>Siembra</h3><p>Sembramos a mano, mata por mata, en la ladera, y la cuidamos mes a mes.</p></div>
+          </article>
+          <article class="paso">
+            <img src="img/cerezas2.jpg" alt="Cerezas de café rojas y maduras" loading="lazy">
+            <div class="paso__cuerpo"><h3>Cosecha</h3><p>Recolección manual, escogiendo únicamente los frutos en su punto.</p></div>
+          </article>
+          <article class="paso">
+            <img src="img/grano.jpg" alt="Granos de café seleccionados" loading="lazy">
+            <div class="paso__cuerpo"><h3>Secado y selección</h3><p>Secado natural y selección del grano antes de pasar a la tostadora.</p></div>
+          </article>
+          <article class="paso">
+            <img src="img/tostadora.jpg" alt="Tostadora artesanal de la finca" loading="lazy">
+            <div class="paso__cuerpo"><h3>Tostión</h3><p>Tostado artesanal a gas, en lotes pequeños, para conservar aroma y sabor.</p></div>
+          </article>
+          <article class="paso">
+            <img src="img/bolsas.jpg" alt="Bolsas de D'Excelso Café" loading="lazy">
+            <div class="paso__cuerpo"><h3>Empaque</h3><p>Cada bolsa se empaca a mano, en grano o molido, según tu pedido.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Franja: un sorbo ===== -->
+    <section class="franja franja--paisaje">
+      <div class="contenedor">
+        <h2>“Un sorbo y lo entiendes.”</h2>
+        <p>Entregas en Cali y Jamundí. A otras ciudades lo coordinamos contigo.</p>
+        <a class="btn" href="#contacto">Contáctanos</a>
+      </div>
+    </section>
+
+    <!-- ===== Cuatro razones ===== -->
+    <section class="seccion">
+      <div class="contenedor">
+        <span class="etiqueta">D'Excelso Café</span>
+        <div class="cuatro" style="margin-top:20px">
+          <div>
+            <h3>Cultivo natural</h3>
+            <p>Granos cultivados de forma natural, respetando la tierra y conservando la pureza del café colombiano.</p>
+          </div>
+          <div>
+            <h3>Proceso artesanal</h3>
+            <p>Tostado cuidadosamente en pequeños lotes para resaltar aroma, frescura y notas únicas.</p>
+          </div>
+          <div>
+            <h3>Calidad garantizada</h3>
+            <p>La atención al detalle es nuestro sello. Desde la selección hasta el empaque, cada paso garantiza un café impecable.</p>
+          </div>
+          <div>
+            <h3>10 años de experiencia</h3>
+            <p>Nuestra trayectoria combina experiencia, rigor y conocimiento para ofrecer un café con sabor profesionalmente elaborado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Blog ===== -->
+    <section class="seccion seccion--arena centro" id="blog">
+      <div class="contenedor">
+        <span class="etiqueta">Blog</span>
+        <h2>Cultura cafetera</h2>
+
+        <div class="blog">
+          <article class="entrada">
+            <a href="blog.html#origen"><img src="img/rama.jpg" alt="Rama de café cargada de grano" loading="lazy"></a>
+            <h3><a href="blog.html#origen">Origen y variedades</a></h3>
+            <p>El sabor de un buen café no comienza en la taza, sino en la tierra donde nace.</p>
+            <a class="leer" href="blog.html#origen">Leer más</a>
+          </article>
+          <article class="entrada">
+            <a href="blog.html#recetas"><img src="img/grano.jpg" alt="Granos de café" loading="lazy"></a>
+            <h3><a href="blog.html#recetas">Recetas con café</a></h3>
+            <p>Tres formas deliciosas de disfrutar D'Excelso en casa, sin ser barista.</p>
+            <a class="leer" href="blog.html#recetas">Leer más</a>
+          </article>
+          <article class="entrada">
+            <a href="blog.html#cultura"><img src="img/cafetal.jpg" alt="Cafetal en ladera" loading="lazy"></a>
+            <h3><a href="blog.html#cultura">Cultura cafetera</a></h3>
+            <p>Una herencia que se cultiva con paciencia, respeto por la tierra y amor por el origen.</p>
+            <a class="leer" href="blog.html#cultura">Leer más</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Video ===== -->
+    <section class="seccion seccion--cafe" id="video">
+      <div class="contenedor video">
+        <div>
+          <span class="etiqueta">Conoce la finca</span>
+          <h2>Ven con nosotros hasta donde nace tu café</h2>
+          <p class="bajada">
+            Un camino de tierra, montaña adentro, hasta los 1.600 metros de altura. Así es el recorrido de cada
+            grano de D'Excelso antes de llegar a tu taza: cosechado a mano, con paciencia y dedicación familiar.
+          </p>
+          <a class="btn" href="#contacto">Quiero probarlo</a>
+        </div>
+        <video controls playsinline preload="none" poster="img/video-portada.jpg" width="720" height="960">
+          <source src="video/finca.mp4" type="video/mp4">
+          Tu navegador no puede reproducir este video.
+        </video>
+      </div>
+    </section>
+
+    <!-- ===== Contacto ===== -->
+    <section class="seccion centro" id="contacto">
+      <div class="contenedor">
+        <span class="etiqueta">Contáctanos</span>
+        <h2>Cotiza con nosotros</h2>
+
+        <div class="contacto-datos">
+          <div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21c-4-4-7-7.500-7-11a7 7 0 0114 0c0 3.500-3 7-7 11z"/><circle cx="12" cy="10" r="2.500"/></svg>
+            <h3>Ubicación</h3><p>Cali, Colombia</p>
+          </div>
+          <div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h4l2 5-2.500 1.500a11 11 0 006 6L16 13l5 2v4a2 2 0 01-2 2A16 16 0 013 5a2 2 0 012-2z"/></svg>
+            <h3>Teléfono</h3><p><a class="js-wa" href="#contacto">3177609333</a></p>
+          </div>
+          <div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r=".6" fill="currentColor"/></svg>
+            <h3>Instagram</h3><p><a href="https://www.instagram.com/dexcelso_cafe/" target="_blank" rel="noopener">@dexcelso_cafe</a></p>
+          </div>
+          <div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <h3>Horario</h3><p>Lunes - Viernes<br>09:00 AM - 6:00 PM</p>
+          </div>
+        </div>
+
+        <form class="form" id="formPedido" novalidate>
+          <div class="form__fila">
+            <label class="campo"><span>Tu nombre</span>
+              <input type="text" name="nombre" autocomplete="name" required>
+            </label>
+            <label class="campo"><span>Ciudad</span>
+              <input type="text" name="ciudad" autocomplete="address-level2" required>
+            </label>
+          </div>
+          <div class="form__fila">
+            <label class="campo"><span>¿Cuántas libras?</span>
+              <input type="number" name="libras" min="1" max="100" value="1" inputmode="numeric" required>
+            </label>
+            <label class="campo"><span>¿Cómo lo quieres?</span>
+              <select name="presentacion">
+                <option>Molido</option>
+                <option>En grano</option>
+              </select>
+            </label>
+          </div>
+          <label class="campo"><span>¿Para quién es?</span>
+            <select name="uso">
+              <option>Para mi casa</option>
+              <option>Para regalar</option>
+              <option>Para mi negocio</option>
+            </select>
+          </label>
+          <label class="campo"><span>Algo más que debamos saber (opcional)</span>
+            <textarea name="nota"></textarea>
+          </label>
+          <button class="btn btn--wa btn--ancho" type="submit">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.600 15.100L2 22l5-1.300A10 10 0 1012 2zm0 18a8 8 0 01-4.100-1.100l-.300-.200-3 .800.800-2.900-.200-.300A8 8 0 1112 20zm4.400-6c-.200-.100-1.400-.700-1.600-.800s-.400-.100-.500.100-.600.800-.800 1-.300.200-.500.100a6.500 6.500 0 01-3.200-2.800c-.200-.400.200-.400.700-1.200.100-.200 0-.300 0-.400l-.700-1.800c-.200-.500-.400-.400-.500-.400h-.500a.900.900 0 00-.600.300 2.700 2.700 0 00-.900 2 4.700 4.700 0 001 2.500 10.800 10.800 0 004.100 3.600c1.500.600 2.100.700 2.900.600a2.400 2.400 0 001.600-1.100 2 2 0 00.100-1.100c0-.100-.200-.200-.400-.300z"/></svg>
+            Enviar pedido por WhatsApp
+          </button>
+          <p class="form__nota">Se abre WhatsApp con tu pedido ya escrito. No guardamos tus datos en esta página.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Pie ===== -->
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie__grilla">
+        <div>
+          <a class="logo" href="#inicio"><img src="img/logo.png" alt="D'Excelso Café Premium" width="300" height="300" loading="lazy"></a>
+          <p style="margin-top:14px">Café premium 100% excelso colombiano</p>
+          <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=61578627552477" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.500 21v-8h2.700l.400-3.200h-3.100V7.800c0-.900.300-1.500 1.600-1.500h1.700V3.400A21 21 0 0014.300 3c-2.500 0-4.100 1.500-4.100 4.300v2.500H7.500V13h2.700v8z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/dexcelso_cafe/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r=".8" fill="currentColor"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h3>Recomendados</h3>
+          <ul>
+            <li><a href="#tienda">Dexcelso en grano</a></li>
+            <li><a href="#tienda">Dexcelso molido</a></li>
+            <li><a href="blog.html#recetas">Recetas con café</a></li>
+            <li><a href="blog.html#origen">Origen y variedades</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <ul>
+            <li><a class="js-wa" href="#contacto">WhatsApp: 3177609333</a></li>
+            <li>Cali, Colombia</li>
+            <li>Finca Villa Hanny · La Irlanda, San Vicente, Jamundí (Valle del Cauca)</li>
+          </ul>
+        </div>
+      </div>
+      <p class="pie__legal">© <span class="js-anio">2026</span> D'Excelso Café / Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <a class="wa-flotante js-wa" id="waFlotante" href="#contacto" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.600 15.100L2 22l5-1.300A10 10 0 1012 2zm0 18a8 8 0 01-4.100-1.100l-.300-.200-3 .800.800-2.900-.200-.300A8 8 0 1112 20zm4.400-6c-.200-.100-1.400-.700-1.600-.800s-.400-.100-.500.100-.600.800-.800 1-.300.200-.500.100a6.500 6.500 0 01-3.200-2.800c-.200-.400.200-.400.700-1.200.100-.200 0-.300 0-.400l-.700-1.800c-.200-.500-.400-.400-.500-.400h-.500a.900.900 0 00-.600.300 2.700 2.700 0 00-.900 2 4.700 4.700 0 001 2.500 10.800 10.800 0 004.100 3.600c1.500.600 2.100.700 2.900.600a2.400 2.400 0 001.600-1.100 2 2 0 00.100-1.100c0-.100-.200-.200-.400-.300z"/></svg>
+  </a>
+
+  <script src="sitio.js"></script>
+</body>
+</html>
